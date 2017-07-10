@@ -1,0 +1,164 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: bold;
+	color: #003534;
+	background-color: #e0e80d;
+}
+#Header{
+	margin: 0 auto;
+	width: 153px;
+	margin-bottom: 60px;
+	margin-top: 55px; 
+	font-size: 18px;
+}
+.Logo{
+	margin-bottom: 5px;
+}
+#General{
+	font-size: 15px;
+}
+#General h1{
+	color: #84890d;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 3px;
+	margin-bottom: 100px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+#General h1 a{
+	color: #444;
+	letter-spacing: 0;
+}
+#Login{
+	width: 350px;
+	margin: 0 auto;
+}
+#Login label, #Login input{
+	display: block;
+	margin: 0 auto;
+}
+#Login label{
+	font-size: 18px;
+	margin-bottom: 11px;
+}
+#Login input{
+	width: 340px;
+	height: 48px;
+	box-shadow: 1px 1px 0px #CCD39E;
+	border:none;
+	font-size: 14px;
+	padding-left: 10px;
+	border-radius: 4px;
+}
+#Login input[name=email]{
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+#Login input[name=senha]{
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+#Login input[type=submit]{
+	background-color: #b4bb07;
+	box-shadow: 1px 1px 0px #8C9108;
+	color: white;
+	width: 252px;
+	height: 60px;
+	font-size: 18px;
+	margin-left: 49px;
+	margin-top: 55px;
+	margin-bottom: 77px;
+	cursor: pointer;
+}
+#Login input[type=submit]:active {
+	background-color: #84890d;
+	transform: translateY(4px);
+}
+#Footer{
+	background-color: white;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 35px;
+	text-align: center;
+	font-size: 14.5px;
+	color: #000;
+	font-weight: bold;
+	bottom: 0;
+	position: fixed;
+}
+::-webkit-input-placeholder { 
+   	color:    #CDCDCD;
+   	opacity:  1;
+}
+::-moz-placeholder {
+   color:    #CDCDCD;
+   opacity:  1;
+}
+:-ms-input-placeholder {
+   color:    #CDCDCD;
+}
+::-ms-input-placeholder { 
+   color:    #CDCDCD;
+}
+@media screen and (max-width: 480px) {
+    #Header{
+		margin-bottom: 30px;
+		margin-top: 40px;
+		padding-left: 2px;
+		width: 127px;
+		font-size: 15px;
+	}
+	img{
+		width: 124px ;
+	}
+	#General h1 {
+		margin: 0 auto;
+		width: 238px;
+		line-height: 23px;
+	}
+	#Login{
+		width: 332px;
+	}
+	#Login input{
+		width: 96.386%;
+	}
+	#Login input[type=submit]{
+		margin:0 auto;
+		padding: 0;
+		margin-top: 52px;
+		width: 250px;
+		margin-bottom: 30px;
+	}
+	#Footer{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+}
+@media screen and (max-width: 350px) {
+	#Login{
+		width: 100%;
+	}
+	#Login input{
+		width: 96%;
+	}
+	#Login input[type=submit]{
+		margin:0 auto;
+		padding: 0;
+		margin-top: 52px;
+		width: 250px;
+		margin-bottom: 30px;
+	}
+	#General h1{
+		margin-bottom: 30px;
+	}
+	#Footer{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+}
+@media screen and (max-width: 320px) {
+	#General h1{
+		margin-bottom: 100px;
+	}
+}
